@@ -7,8 +7,5 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact', as: 'contact'
 
 
-  #get 'about' => 'pages#about', as : 'about'
-  #get 'services' => 'pages#services', as : 'services'
-  #get 'contact' => 'pages#contact', as : 'contact'
 
 end

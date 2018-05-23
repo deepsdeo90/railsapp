@@ -1,1 +1,6 @@
-<h1>Services</h1>
+<%= render 'pages/partials/content' %>
+<% for @service in @servicesArray %>
+	<div class="well">
+		<%= @service %>
+	</div>
+<% end %>
