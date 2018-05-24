@@ -18,3 +18,4 @@ class PagesController < ApplicationController
 	end
 	
 end
+#bundle exec puma -C config/puma.rb -b tcp://127.0.0.1:3001
